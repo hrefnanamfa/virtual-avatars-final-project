@@ -957,9 +957,9 @@
             "actions": [
                 {
                     "name": "Teleport Select",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "cbeaf823-3b69-4004-8ec8-13ea2ca3fc31",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -1031,11 +1031,11 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "6a6c5cf9-7b10-42b7-80b7-779cfa69aaa1",
-                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
-                    "interactions": "",
+                    "id": "95fa1419-ca7b-4c8a-8d15-7d46e58d82e3",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxis}",
+                    "interactions": "Sector(directions=-1,sweepBehavior=3)",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Noncontinuous Move",
                     "action": "Teleport Select",
                     "isComposite": false,
                     "isPartOfComposite": false
